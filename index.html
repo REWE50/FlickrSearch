@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Search Flickr Images</title>
+	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  
+    <!-- MWA Unit 4 Workshop -->
+    <!-- Ray Egan -->
+    <!-- 10/06/17 -->
+</head>
+
+<body>
+	<div data-role="page">
+		<div data-role="header">
+			<h1>Search Flickr</h1>
+		</div>
+		
+		<div data-role="content">
+			<input type="text" id="searchTerm" placeholder="Search Term(s)">
+			<input type="text" id="numImages" placeholder="Number of Images">
+			<input type="submit" id="searchButton" value="Search">
+
+			<div id="anchors">
+				<h1></h1>
+			</div>
+			
+			<div id="popups">
+			</div>
+		</div>
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/my-JS.js"></script>
+	<script src="phonegap.js"></script>
+</body>
+</html>
